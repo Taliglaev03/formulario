@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="form.js"></script>
+    <title>Logo-Insta</title>
+</head>
+<body>
+   <section>
+    <div class="container">
+        <form>
+
+            <div class="step step-1 active">
+
+                <div class="form-group">
+                    <label for="firstname">Nome</label>
+                    <input type="text" id="firstname" name="first-name">
+                </div>
+
+                <div class="form-group">
+                    <label for="lastname">Sobrenome</label>
+                    <input type="text" id="lastname" name="last-name">
+                </div>
+
+                <div class="form-group">
+                    <label for="nickname">Apelido</label>
+                    <input type="text" id="nickname" name="nick-name">
+                </div>
+                <button type="button" class="next-btn">Próximo</button>
+            </div>
+
+            <div class="step step-2">
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" id="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Telefone</label>
+                    <input type="number" name="phone-number" id="phone">
+                </div>
+
+                <button type="button" class="previous-btn">Voltar</button>
+                <button type="button" class="next-btn">Próximo</button>
+            </div>
+
+            <div class="step step-3">
+                <div class="form-group">
+                    <label for="country">País</label>
+                    <input type="text" id="country" name="country">
+                </div>
+                <div class="form-group">
+                    <label for="city">Cidade</label>
+                    <input type="text" id="city" name="city">
+                </div>
+                <div class="form-group">
+                    <label for="postcode">CEP</label>
+                    <input type="text" id="postcode" name="post-code">
+                </div>
+                <button type="button" class="previous-btn">Voltar</button>
+                <button type="button" class="submit-btn">Enviar</button>
+            </div>
+        </form>
+    </div>
+   </section>
+</body>
+</html>
